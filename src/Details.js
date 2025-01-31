@@ -26,15 +26,19 @@ import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
+import projectImage5 from "./assets/projects/project5.jpg";
 
 
 
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Eyitayo",
-  tagline: "I am a Backend and Mobile Engineer",
+  tagline: "I am a Backend-focused Software Engineer",
   img: profile,
-  about: `I am a Backend and Mobile Developer interested in building scalable systems and seamless mobile experiences. Proficient in Python, Node.js and Flutter. Additionally, I am well versed in React.js, C++, Swift and Kotlin. I have experience with building APIs, managing databases and ensuring perfomance optimisation.`,
+  about: `I am a Backend Developer interested in building well-functioning, scalable systems that can contribute to enhancing overall user experiences. Proficient in Python, Java, C++ and Node.js. 
+  Additionally, I am well versed in React.js, Flutter, Dart, Swift and Kotlin.
+   I have experience utilising AWS and the Google Cloud Platform as cloud services to deploy applications. 
+   I have experience with RESTful APIs, WebSockets and frameworks including Django, Flask, FastAPI, Express and Spring Boot.`,
   about2: `Passionate about Machine Learning and AI, I am currently working on building projects using machine learning algorithms and learning how to address real-world issues with data-driven approaches. `,
   about3: `I am always eager and willing to learn about new and emerging technologies, and apply my knowledge!    `,
 };
@@ -114,27 +118,34 @@ export const projectDetails = [
     githubLink: "https://github.com/Tae5567/SpeechScribe-Speech-Recognition",
   },
   {
-    title: "ImpactMeter",
+    title: "Product E-Commerce API",
     image: projectImage2,
-    description: `This is a web app forecasting the environmental impact of lifestyle choices, providing users with actionable suggestions for reducing carbon footprints.`,
-    techstack: "Kotlin, Android Studio, Firebase",
+    description: `This is a full-stack e-commerce platform using Node.js for backend logic and PostgreSQL for inventory management and designed a responsive UI with React.js and Tailwind CSS to enable seamless product browsing and purchasing.`,
+    techstack: "Node.js, React.js, Tailwind CSS, PostgreSQL, APIs: OpenAI, Paystack",
     previewLink: "#",
-    githubLink: "https://github.com/Tae5567/Carbon-Impact-Forecaster-Web",
+    githubLink: "https://github.com/Tae5567/Product-E-Commerce-API",
   },
   {
-    title: "KanbanFlow",
+    title: "CrisisAlert Analytical Dashboard",
     image: projectImage3,
-    description: `This is an Android app Project Management tool with Kanban boards and Firebase-authenticated real-time user collaboration`,
-    techstack: "Kotlin, Android Studio, Firebase",
+    description: `This is an analytics dashboard used to track and predict floods and natural disasters in African regions, that can be used to improve emergency preparedness and response coordination.`,
+    techstack: "Java (Spring Boot), TensorFlow, FastAPI, AWS, REST APIs",
     previewLink: "#",
-    githubLink: "https://github.com/Tae5567/KanbanFlow-Android",
+    githubLink: "https://github.com/Tae5567/CrisisAlert-Analytical-Dashboard",
+  },
+  {
+    title: "MotionNav Gesture-Based Virtual Mouse",
+    image: projectImage4,
+    description: `This is a gesture-controlled virtual computer mouse for real-time hand tracking which translates finger movements into mouse cursor actions.`,
+    techstack: "OpenCV, PyAutoGUI, MediaPipe",
+    previewLink: "#",
+    githubLink: "https://github.com/Tae5567/Gesture-Control-Mouse",
   },
   {
     title: "rideFinder",
-    image: projectImage4,
-    description: `This is a ride-sharing web app that aggregates rates from multiple services to help users find the
-best ride deals.`,
-    techstack: "Django, React.js, MySQL",
+    image: projectImage5,
+    description: `This is a ride-sharing web app that aggregates rates from multiple services to help users find the best ride deals.`,
+    techstack: "Django, React.js, APIs: Google Maps",
     previewLink: "#",
     githubLink: "https://github.com/nickarobinson99/447Pluto",
   },
