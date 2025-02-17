@@ -4,13 +4,16 @@
 import profile from "./assets/profile.jpg";
 // Skills images
 import python from "./assets/svg/skills/python.svg";
+import java from "./assets/svg/skills/java.svg";
 import javascript from "./assets/svg/skills/javascript.svg";
 import django from "./assets/svg/skills/django.svg";
 import nodejs from "./assets/svg/skills/nodejs.svg";
 import flutter from "./assets/svg/skills/flutter.svg";
 import dart from "./assets/svg/skills/dart.svg";
+import swift from "./assets/svg/skills/swift.svg"
 import firebase from "./assets/svg/skills/firebase.svg";
 import aws from "./assets/svg/skills/aws.svg";
+import gcp from "./assets/svg/skills/gcp.svg"
 import azure from "./assets/svg/skills/azure.svg";
 import git from "./assets/svg/skills/git.svg";
 import react from "./assets/svg/skills/react.svg";
@@ -24,9 +27,9 @@ import css from "./assets/svg/skills/css.svg";
 // Project Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
+import dashboardUI from "./assets/projects/dashboard.png";
 
 
 
@@ -88,15 +91,18 @@ export const eduDetails = [
 // Tech Stack and Tools
 export const skillDetails = {
   python: python,
+  java: java,
   javascript:javascript,
   django: django,
   nodejs: nodejs,
   flutter: flutter,
   dart: dart,
+  swift: swift,
   react: react,
   firebase: firebase,
   kotlin: kotlin,
   aws: aws,
+  gcp: gcp,
   azure: azure,
   postgresql: postgresql,
   mongoDB: mongoDB,
@@ -110,11 +116,17 @@ export const skillDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "CrisisAlert Analytical Dashboard",
+    image: dashboardUI,
+    description: `This is an analytics dashboard used to track and predict floods and natural disasters in African regions, that can be used to improve emergency preparedness and response coordination.`,
+    techstack: "Java (Spring Boot), TensorFlow, FastAPI, AWS, REST APIs",
+    githubLink: "https://github.com/Tae5567/CrisisAlert-Analytical-Dashboard",
+  },
+  {
     title: "SpeechScribe",
     image: projectImage1,
     description: `This is a mobile app that converts speech to text, designed for easy note-taking and productivity using Flutter for cross-platform functionality and Django for backend support.`,
     techstack: "PyTorch, Flutter, Django",
-    previewLink: "#",
     githubLink: "https://github.com/Tae5567/SpeechScribe-Speech-Recognition",
   },
   {
@@ -122,23 +134,13 @@ export const projectDetails = [
     image: projectImage2,
     description: `This is a full-stack e-commerce platform using Node.js for backend logic and PostgreSQL for inventory management and designed a responsive UI with React.js and Tailwind CSS to enable seamless product browsing and purchasing.`,
     techstack: "Node.js, React.js, Tailwind CSS, PostgreSQL, APIs: OpenAI, Paystack",
-    previewLink: "#",
     githubLink: "https://github.com/Tae5567/Product-E-Commerce-API",
-  },
-  {
-    title: "CrisisAlert Analytical Dashboard",
-    image: projectImage3,
-    description: `This is an analytics dashboard used to track and predict floods and natural disasters in African regions, that can be used to improve emergency preparedness and response coordination.`,
-    techstack: "Java (Spring Boot), TensorFlow, FastAPI, AWS, REST APIs",
-    previewLink: "#",
-    githubLink: "https://github.com/Tae5567/CrisisAlert-Analytical-Dashboard",
   },
   {
     title: "MotionNav Gesture-Based Virtual Mouse",
     image: projectImage4,
     description: `This is a gesture-controlled virtual computer mouse for real-time hand tracking which translates finger movements into mouse cursor actions.`,
     techstack: "OpenCV, PyAutoGUI, MediaPipe",
-    previewLink: "#",
     githubLink: "https://github.com/Tae5567/Gesture-Control-Mouse",
   },
   {
@@ -146,7 +148,6 @@ export const projectDetails = [
     image: projectImage5,
     description: `This is a ride-sharing web app that aggregates rates from multiple services to help users find the best ride deals.`,
     techstack: "Django, React.js, APIs: Google Maps",
-    previewLink: "#",
     githubLink: "https://github.com/nickarobinson99/447Pluto",
   },
 ];
