@@ -27,8 +27,6 @@ import css from "./assets/svg/skills/css.svg";
 // Project Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
 import dashboardUI from "./assets/projects/dashboard.png";
 
 
@@ -135,20 +133,6 @@ export const projectDetails = [
     description: `This is a full-stack e-commerce platform using Node.js for backend logic and PostgreSQL for inventory management and designed a responsive UI with React.js and Tailwind CSS to enable seamless product browsing and purchasing.`,
     techstack: "Node.js, React.js, Tailwind CSS, PostgreSQL, APIs: OpenAI, Paystack",
     githubLink: "https://github.com/Tae5567/Product-E-Commerce-API",
-  },
-  {
-    title: "MotionNav Gesture-Based Virtual Mouse",
-    image: projectImage4,
-    description: `This is a gesture-controlled virtual computer mouse for real-time hand tracking which translates finger movements into mouse cursor actions.`,
-    techstack: "OpenCV, PyAutoGUI, MediaPipe",
-    githubLink: "https://github.com/Tae5567/Gesture-Control-Mouse",
-  },
-  {
-    title: "rideFinder",
-    image: projectImage5,
-    description: `This is a ride-sharing web app that aggregates rates from multiple services to help users find the best ride deals.`,
-    techstack: "Django, React.js, APIs: Google Maps",
-    githubLink: "https://github.com/nickarobinson99/447Pluto",
   },
 ];
 
